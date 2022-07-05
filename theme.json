@@ -1,0 +1,321 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Yellow",
+                    "slug": "yellow",
+                    "color": "#F59E0B"
+                },
+                {
+                    "name": "Dark Gray",
+                    "slug": "dark-gray",
+                    "color": "#262626"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#FFFFFF"
+                },
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Red",
+                    "slug": "red",
+                    "color": "#dc2626"
+                },
+                {
+                    "name": "Green",
+                    "slug": "green",
+                    "color": "#16a34a"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies":[
+                {
+                    "name": "Inter",
+                    "slug": "inter",
+                    "fontFamily": "\"Inter\", sans-serif",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": [ "file:./assets/fonts/inter-all-400-normal.woff" ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": [ "file:./assets/fonts/inter-all-500-normal.woff" ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": [ "file:./assets/fonts/inter-all-600-normal.woff" ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": [ "file:./assets/fonts/inter-all-700-normal.woff" ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lora",
+                    "slug": "lora",
+                    "fontFamily": "\"Lora\", serif",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Lora",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": [ "file:./assets/fonts/lora-all-400-normal.woff" ]
+                        },
+                        {
+                            "fontFamily": "Lora",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": [ "file:./assets/fonts/lora-all-400-italic.woff" ]
+                        },
+                        {
+                            "fontFamily": "Lora",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": [ "file:./assets/fonts/lora-all-700-normal.woff" ]
+                        },
+                        {
+                            "fontFamily": "Lora",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": [ "file:./assets/fonts/lora-all-700-italic.woff" ]
+                        }
+                    ]
+                }
+            ],
+            "fontSizes": [
+                {
+                    "name": "text-xs",
+                    "slug": "text-xs",
+                    "size": "0.75rem"
+                },
+                {
+                    "name": "text-sm",
+                    "slug": "text-sm",
+                    "size": "0.875rem"
+                },
+                {
+                    "name": "text-base",
+                    "slug": "text-base",
+                    "size": "1rem"
+                },
+                {
+                    "name": "text-lg",
+                    "slug": "text-lg",
+                    "size": "1.125rem"
+                },
+                {
+                    "name": "text-xl",
+                    "slug": "text-xl",
+                    "size": "1.25rem"
+                },
+                {
+                    "name": "text-2xl",
+                    "slug": "text-2xl",
+                    "size": "1.5rem"
+                },
+                {
+                    "name": "text-3xl",
+                    "slug": "text-3xl",
+                    "size": "1.875rem"
+                },
+                {
+                    "name": "text-4xl",
+                    "slug": "text-4xl",
+                    "size": "2.25rem"
+                },
+                {
+                    "name": "text-5xl",
+                    "slug": "text-5xl",
+                    "size": "3rem"
+                },
+                {
+                    "name": "text-6xl",
+                    "slug": "text-6xl",
+                    "size": "3.75rem"
+                },
+                {
+                    "name": "text-7xl",
+                    "slug": "text-7xl",
+                    "size": "4.5rem"
+                },
+                {
+                    "name": "text-8xl",
+                    "slug": "text-8xl",
+                    "size": "6rem"
+                },
+                {
+                    "name": "text-9xl",
+                    "slug": "text-9xl",
+                    "size": "8rem"
+                }
+            ],
+            "letterSpacing": true,
+            "lineHeight": true
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "units": [
+                "px",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "layout": {
+            "contentSize": "768px",
+            "wideSize": "1280px"
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--white)",
+            "text": "var(--wp--preset--color--dark-gray)"
+        },
+        "typography": {
+            "fontSize": "var(--wp-preset--font-size--text-base)",
+            "fontFamily": "var(--wp--preset--font-family--lora)",
+            "lineHeight": "1.75"
+        },
+        "elements": {
+            "link": {
+                "typography": {
+                    "textDecoration": "none"
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--yellow)"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--text-4xl)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--text-3xl)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--text-2xl)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--text-xl)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--text-lg)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--text-base)"
+                }
+            }
+        },
+        "blocks": {
+            "core/site-title": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--text-xl)",
+                    "fontFamily": "var(--wp--preset--font-family--inter)",
+                    "textTransform": "uppercase"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "0",
+                        "bottom": "0.5rem"
+                    }
+                }
+            },
+            "core/site-tagline": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--inter)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "0",
+                        "bottom": "0"
+                    }
+                }
+            },
+            "core/heading": {
+                "typography": {
+                    "fontWeight": "700",
+                    "lineHeight": "1.25"
+                }
+            },
+            "core/navigation": {
+                "typography": {
+                    "fontSize": "var(--wp--preset-font-size--text-sm)"
+                }
+            },
+            "core/query-pagination": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--text-xs)"
+                }
+            },
+            "core/quote": {
+                "border": {
+                    "width": "2px"
+                }
+            },
+            "core/search": {
+                "border": {
+                    "radius": "0.5rem"
+                }
+            }
+        }
+    },
+    "templateParts": [
+        {
+            "title": "Header",
+            "name": "header",
+            "area": "Header"
+        },
+        {
+            "title": "Footer",
+            "name": "footer",
+            "area": "footer"
+        }
+    ],
+    "customTemplates": []
+}
