@@ -15,14 +15,9 @@
                     "color": "#262626"
                 },
                 {
-                    "name": "White",
-                    "slug": "white",
-                    "color": "#FFFFFF"
-                },
-                {
-                    "name": "Black",
-                    "slug": "black",
-                    "color": "#000000"
+                    "name": "Light Gray",
+                    "slug": "light-gray",
+                    "color": "#D4D4D8"
                 },
                 {
                     "name": "Red",
@@ -144,38 +139,38 @@
                     "size": "1.25rem"
                 },
                 {
-                    "name": "text-2xl",
-                    "slug": "text-2xl",
+                    "name": "text-2-xl",
+                    "slug": "text-2-xl",
                     "size": "1.5rem"
                 },
                 {
-                    "name": "text-3xl",
-                    "slug": "text-3xl",
+                    "name": "text-3-xl",
+                    "slug": "text-3-xl",
                     "size": "1.875rem"
                 },
                 {
-                    "name": "text-4xl",
-                    "slug": "text-4xl",
+                    "name": "text-4-xl",
+                    "slug": "text-4-xl",
                     "size": "2.25rem"
                 },
                 {
-                    "name": "text-5xl",
-                    "slug": "text-5xl",
+                    "name": "text-5-xl",
+                    "slug": "text-5-xl",
                     "size": "3rem"
                 },
                 {
-                    "name": "text-6xl",
-                    "slug": "text-6xl",
+                    "name": "text-6-xl",
+                    "slug": "text-6-xl",
                     "size": "3.75rem"
                 },
                 {
-                    "name": "text-7xl",
-                    "slug": "text-7xl",
+                    "name": "text-7-xl",
+                    "slug": "text-7-xl",
                     "size": "4.5rem"
                 },
                 {
-                    "name": "text-8xl",
-                    "slug": "text-8xl",
+                    "name": "text-8-xl",
+                    "slug": "text-8-xl",
                     "size": "6rem"
                 },
                 {
@@ -183,11 +178,10 @@
                     "slug": "text-9xl",
                     "size": "8rem"
                 }
-            ],
-            "letterSpacing": true,
-            "lineHeight": true
+            ]
         },
         "spacing": {
+            "blockGap": true,
             "padding": true,
             "margin": true,
             "units": [
@@ -223,17 +217,17 @@
             },
             "h1": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--text-4xl)"
+                    "fontSize": "var(--wp--preset--font-size--text-4-xl)"
                 }
             },
             "h2": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--text-3xl)"
+                    "fontSize": "var(--wp--preset--font-size--text-3-xl)"
                 }
             },
             "h3": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--text-2xl)"
+                    "fontSize": "var(--wp--preset--font-size--text-2-xl)"
                 }
             },
             "h4": {
@@ -277,6 +271,11 @@
                     }
                 }
             },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--inter)"
+                }
+            },
             "core/heading": {
                 "typography": {
                     "fontWeight": "700",
@@ -301,6 +300,11 @@
             "core/search": {
                 "border": {
                     "radius": "0.5rem"
+                }
+            },
+            "core/separator": {
+                "border": {
+                    "color": "var(--wp--preset--color--light-gray)"
                 }
             }
         }
